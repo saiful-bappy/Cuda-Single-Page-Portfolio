@@ -247,7 +247,7 @@ section {
 .team-members h6 a {
   color: #1877f2;
   text-decoration: none;
-  padding-bottom: 2px;
+  padding-bottom: 1px;
   border-bottom: 1px solid transparent;
   transition: 300ms;
 }
@@ -438,7 +438,7 @@ section {
 .portfolios .portfolio-item h6 a {
   color: #393939;
   text-decoration: none;
-  padding-bottom: 5px;
+  padding-bottom: 1px;
   border-bottom: 2px solid transparent;
   transition: 300ms;
 }
@@ -524,7 +524,7 @@ section {
 .client-content h6 a {
   color: #facd96;
   text-decoration: none;
-  padding-bottom: 5px;
+  padding-bottom: 1px;
   border-bottom: 1px solid transparent;
   transition: 300ms;
 }
@@ -534,9 +534,28 @@ section {
   color: #290916;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .testimonials {
+    text-align: center;
+  }
+
+  .client {
+    display: block !important;
+    margin-bottom: 60px;
+  }
+
+  .client .client-thumb {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .client .client-thumb img {
+    width: 200px;
+    height: 200px;
+  }
+
   .client:nth-child(3) {
-    margin-bottom: 150px;
+    margin-bottom: 60px;
   }
 }
 /* About Section End */
@@ -581,7 +600,7 @@ section {
   border: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  color: white;
+  color: #ffffff;
   transition: 300ms;
 }
 

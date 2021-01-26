@@ -12,7 +12,6 @@ section {
 }
 
 /* Header Section */
-
 .header-section {
   background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)),
     url(images/header-bg.jpg);
@@ -25,25 +24,35 @@ section {
   height: 90vh;
 }
 
-.header-menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.header-menu {
+  padding: 0 !important;
 }
 
 .header-menu ul li {
-  display: inline;
+  margin-right: 10px;
+}
+
+.header-menu ul li:last-child {
+  margin-right: 0;
 }
 
 .header-menu ul li a {
-  display: inline-block;
-  color: white;
-  padding: 5px 15px;
+  color: white !important;
+  padding: 5px 10px !important;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   transition: 500ms;
+  margin-top: 10px;
+}
+
+.navbar-nav {
+  margin-top: 20px;
+}
+
+.nav-item {
+  width: 25%;
 }
 
 .header-menu ul li:first-child a {
@@ -92,31 +101,6 @@ section {
   background-color: #c86a40;
   box-shadow: 0 5px#b65d37;
 }
-
-@media screen and (max-width: 992px) {
-  .header-section {
-    height: auto;
-  }
-  .header-top {
-    align-items: flex-start !important;
-  }
-
-  .header-menu ul li {
-    display: block;
-  }
-
-  .header-menu ul li a {
-    padding: 5px 10px;
-    margin: 5px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header-action h1 {
-    font-size: 24px;
-  }
-}
-
 /* Header Section End*/
 
 /* Service Section */
